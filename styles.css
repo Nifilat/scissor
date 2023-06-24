@@ -1,0 +1,85 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+:root {
+  --text-color: rgb(20, 20, 20);
+  --primary: #0065fe;
+  --neutral: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  /* font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Gilroy-Heavy", sans-serif;
+  font-family: "Gilroy-Light", sans-serif;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy-Regular", sans-serif; */
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 12px 24px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+}
+
+.nav-items a {
+  color: var(--text-color);
+}
+
+#my-url {
+  color: var(--primary);
+}
+
+.features {
+  display: flex;
+  gap: 3px;
+}
+
+.auth-btns {
+  display: flex;
+  gap: 24px;
+  font-family: "Gilroy-SemiBold", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-btns a {
+  color: var(--primary);
+}
+
+.signup-btn {
+  background-color: var(--primary);
+  color: var(--neutral);
+}
+
+.hero {
+  background: radial-gradient(#eee, #f8f7e5, #fff);
+  padding: 1rem 0;
+}
+
+/* .inter-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
