@@ -20,7 +20,7 @@ body {
 
 .hero {
   width: 1440px;
-  height: 1024px;
+  /* height: 1024px; */
   position: relative;
   background: white;
 }
@@ -222,19 +222,8 @@ button {
   width: 30rem;
 }
 
-.end-section {
-  position: relative;
-}
-
-.end-section > img:first-child {
-  /* width: 45rem; */
-  position: absolute;
-  top: 20%;
-  left: 20%;
-}
-
 .end-section > img:nth-child(2) {
-  /* width: 75rem; */
-  /* height: 6rem; */
-  overflow: hidden;
+  position: absolute;
+  top: 92%;
+  right: 15%;
 }
